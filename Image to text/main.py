@@ -7,7 +7,7 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
 
 # Load the image
-image_path = 'E:/Final Yr Project/Image to text/image.png'  # Replace with your image path
+image_path = 'E:/Final Yr Project/img2txt/Image to text/Images/image.png'  # Replace with your image path
 image = Image.open(image_path)
 
 # Extract text from the image
